@@ -1,0 +1,19 @@
+Comportate como un experto en programación y diseño en pyton. 
+Con base en el diagrama que te comparto ayúdame hacer un  programa 
+en pyton basado en funciones que: Permita Registro (Permitir crear un 
+usuario con y Login, Guardar el usuario registrado en lista), luego 
+hacer login donde pida correo y contraseña, debe permitir máximo 3 
+intentos en caso de ingresar los datos correctos, por cada intento 
+fallido mostrar "Credenciales incorrectas. Intentos restantes: X", 
+si el intento es éxito "Login exitoso" y permitir continuar con el menú,
+ si se agotarón los intento "Cuenta bloqueada temporalmente" y finalizar
+  el programa. Pasar a un menu 1. Gestionar usuarios del servicio
+   (lista de diccionarios) y 2.Salir, al ingresar al menu 1,
+    crear otro menú. 1 crear usuarios. 2. Ingresar consumos
+     (debe buscar al usuario para ingresar su consumo y solo se deja si esta activo, 
+     hacerlo de forma aleatoria), 3. Ordenar consumo 
+     (Ordenar usuarios por consumo de menor a mayor), 4 cambiar de estado. 5 volver al menu anterior)
+      Crear una lista llamada usuarios_servicio que contenga 10 diccionarios, 
+      cada uno con esta estructura mínima: id (int), nombre (str), documento (str o int), estrato (int 1 a 6), 
+      consumoEnergetico (crear un listado numérico de 5 consumos al mes) en KWH, 
+      estado (str: "ACTIVO" o "SUSPENDIDO").
